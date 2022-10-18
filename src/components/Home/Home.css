@@ -1,6 +1,30 @@
-.home-container .home-background {
-  width: 100%;
+.home-container {
+  width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background-color: gainsboro;
+}
+.home-container .homepage .homepage-title__span {
+  color: #6AE1FE;
+}
+.home-container .home-illustrator {
+  position: absolute;
+  bottom: 12%;
+  left: 10%;
+  width: 15%;
+  height: 15%;
+  min-width: 100px;
+  min-height: 100px;
+}
+@media (max-width: 640px) {
+  .home-container .home-illustrator {
+    display: none;
+  }
+}
+.home-container .home-background {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 50%;
+  min-width: 300px;
 }/*# sourceMappingURL=Home.css.map */

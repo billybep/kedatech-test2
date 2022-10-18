@@ -2,6 +2,23 @@
   position: fixed;
   z-index: 1;
 }
+.navbar-container .bg-home {
+  width: 24%;
+  max-width: 350px;
+  min-width: 275px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.navbar-container .navbar-home__link:hover {
+  cursor: pointer;
+}
+.navbar-container .navbar-home__title {
+  font-weight: bolder;
+  color: aliceblue;
+  font-size: 1.3rem;
+}
 
 .navbar-logo {
   display: flex;
@@ -10,4 +27,27 @@
 }
 .navbar-logo .navbar-logo__1 {
   width: 100%;
+}
+
+.menu-link {
+  font-weight: bolder;
+}
+
+.scroll-link {
+  font-size: 1.3rem;
+}
+.scroll-link:hover {
+  color: #6ae1fe;
+  cursor: pointer;
+}
+.scroll-link .active {
+  border-bottom: 3px solid #6ae1fe;
+}
+
+.btn-login {
+  width: 12rem;
+  color: #6ae1fe;
+}
+.btn-login:hover {
+  background-color: #6ae1fe;
 }/*# sourceMappingURL=Navbar.css.map */

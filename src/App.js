@@ -12,8 +12,8 @@ function App() {
       <header className="App-header">
         <Navbar />
         <Home />
-        <Pricing />
         <About />
+        <Pricing />
         <Contact />
       </header>
     </div>
