@@ -19,7 +19,7 @@ const Navbar = () => {
             </label>
             <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
               <li><LinkScroll to="about" spy={true} smooth={true} offset={-95} duration={500}>ABOUT</LinkScroll></li>
-              <li><LinkScroll to="pricing" spy={true} smooth={true} offset={-97} duration={500}>PRICING</LinkScroll></li>
+              <li><LinkScroll to="pricing" spy={true} smooth={true} offset={-95} duration={500}>PRICING</LinkScroll></li>
               <li><LinkScroll to="contact" spy={true} smooth={true} offset={-95} duration={500}>CONTACT</LinkScroll></li>
             </ul>
           </div>
@@ -37,7 +37,7 @@ const Navbar = () => {
           <div className="hidden lg:flex md:flex">
             <ul className="menu-horizontal p-0 menu-link">
               <li className="scroll-link mx-4"><LinkScroll to="about" spy={true} smooth={true} offset={-95} duration={500}>ABOUT</LinkScroll></li>
-              <li className="scroll-link mx-4"><LinkScroll to="pricing" spy={true} smooth={true} offset={-97} duration={500}>PRICING</LinkScroll></li>
+              <li className="scroll-link mx-4"><LinkScroll to="pricing" spy={true} smooth={true} offset={-95} duration={500}>PRICING</LinkScroll></li>
               <li className="scroll-link mx-4"><LinkScroll to="contact" spy={true} smooth={true} offset={-95} duration={500}>CONTACT</LinkScroll></li>
             </ul>
           </div>

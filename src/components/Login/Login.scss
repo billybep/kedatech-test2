@@ -1,3 +1,53 @@
 .login-modal {
-  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 1.5rem 4rem rgba(19, 19, 19, 0.15);
+  width: 100vw;
+  background-color: rgb(25, 25, 25, .8);
+
+  .modal-box {
+    border-radius: 3px;
+    height: 25rem;
+    background-color:aliceblue;
+
+    .heading-login {
+      text-transform: uppercase;
+      font-weight: 700;
+      display: inline-block;
+      background-image: linear-gradient(to right, #527af1, #b491e3);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    .form {
+      &__group {}
+
+      &__input {
+        padding: 1.5rem 2rem;
+        border-radius: 2px;
+        border: none;
+        background-color: rgba(249, 253, 255, 0.5);
+        font-family: inherit;
+        border-bottom: 3px solid transparent;
+        width: 100%;
+        display: block; 
+      }
+
+      &:focus:invalid {
+        border-bottom: 3px solid red;
+      }
+
+      &::-webkit-input-placeholder {
+        color: rgb(47, 47, 47);
+      }
+
+      &__input:focus {
+        outline: none;
+        box-shadow: 0 1rem 2rem rgb(22, 22, 22, .1);
+        border-bottom: 3px solid #6AE1FE;
+      }
+
+      &__label {
+        display: block;
+      }
+    }
+  }
 }

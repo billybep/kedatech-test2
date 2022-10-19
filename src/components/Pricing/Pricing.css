@@ -1,5 +1,29 @@
-.pricing-container {
-  width: 100%;
-  height: 100vh;
-  background-color: burlywood;
+.section-pricing {
+  width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+  background-color: rgb(241, 244, 247);
+}
+.section-pricing .subscription {
+  display: inline-block;
+  background-image: linear-gradient(to right, #527af1, #b491e3);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.section-pricing .pricing-box {
+  width: 22%;
+  min-width: 300px;
+  align-self: center;
+  background-color: rgba(241, 248, 255, 0.5);
+  padding: 2.5rem;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(31, 31, 31, 0.15);
+  transition: all 0.3s;
+}
+.section-pricing .pricing-box__icon {
+  width: 30%;
+  margin: auto;
+}
+.section-pricing .pricing-box:hover {
+  transform: translateY(-1.5rem) scale(1.05);
 }/*# sourceMappingURL=Pricing.css.map */

@@ -1,5 +1,47 @@
-.about-container {
-  width: 100%;
-  height: 100vh;
-  background-color: pink;
+.section-about {
+  width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+}
+.section-about .u-center-text {
+  text-align: center;
+}
+.section-about .text-content {
+  margin-top: 2rem;
+  width: 40vw;
+  min-width: 300px;
+}
+.section-about .image-content {
+  margin-top: 2rem;
+  width: 40vw;
+  min-width: 300px;
+}
+
+.heading-secondary {
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(to right, #527af1, #b491e3);
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: all 0.2s;
+}
+.heading-secondary:hover {
+  transform: scale(1.1);
+  text-shadow: 0.5rem 1rem 2rem rgba(30, 30, 30, 0.2);
+}
+
+.heading-tertiary {
+  font-weight: 700;
+}
+
+.composition__photo {
+  width: 85%;
+  margin: auto;
+  transition: all 0.2s;
+  outline-offset: 3rem;
+}
+.composition__photo:hover {
+  outline: 1rem solid #527AF1;
+  transform: scale(1.05);
 }/*# sourceMappingURL=About.css.map */

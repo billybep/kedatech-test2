@@ -5,7 +5,7 @@ import illustratorSample from './undraw_metrics_01.svg'
 const Home = () => {
   return (
     <>
-      <div className="home-container" id="home">
+      <section className="home-container" id="home">
         <div className="homepage mt-48 flex justify-center">
           <div className="homepage-title text-center text-6xl p-1">
             <h1>Maximize your</h1>
@@ -26,7 +26,7 @@ const Home = () => {
         <div className="home-background">
           <img src="./bg-02.png" alt="ng-02.png" />
         </div>
-      </div>
+      </section>
     </>
   )
 }

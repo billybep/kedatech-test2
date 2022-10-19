@@ -1,5 +1,29 @@
 .contact-container {
   width: 100%;
   height: 100vh;
-  background-color: aliceblue;
+  background-color: rgb(241,244,247);
+
+  .heading-contact {
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    background-image: linear-gradient(to right, #527af1, #b491e3);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .contact-left-column {
+    width: 40vw;
+    min-width: 300px;
+
+    &__image {
+      width: 75%;
+      min-width: 300px;
+    }
+  }
+
+  .contact-right-column {
+    width: 40vw;
+    min-width: 300px;
+  }
 }
