@@ -21,7 +21,7 @@ function Contact() {
             <input type="text" placeholder="First Name *" className="input input-bordered w-full max-w-xs mb-2" />
             <input type="text" placeholder="Last Name" className="input input-bordered w-full max-w-xs mb-2" />
             <textarea className="textarea textarea-bordered mb-2" placeholder="Type Your Message*"></textarea>
-            <button className="btn btn-wide btn-outline">Submint</button>
+            <button className="btn btn-wide btn-outline">Submit</button>
           </div>
         </div>
       </section>
